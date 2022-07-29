@@ -47,7 +47,7 @@ def predict():
 
 
 # last line of code
-app.run() # debug = True let us update this code on live server. 
+app.run(debug=True) # debug = True let us update this code on live server. 
 
 
 
