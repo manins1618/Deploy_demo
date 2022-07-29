@@ -1,0 +1,21 @@
+<html>
+
+    <body>
+        <h1> Fill the data to make Prediction</h1>
+        <form method="post" action="/predict">
+            <p>
+            <input type = "number" name = "preg" placeholder="Pregnancies" required="required">
+            <input type = "number" name = "plas" placeholder="Glucose" required="required">
+            <input type = "number" name = "pres" placeholder="BloodPressure" required="required">
+            <input type = "number" name = "skin" placeholder="SkinThickness" required="required">
+            </p>
+            <input type = "number" name = "test" placeholder="Insulin" required="required">
+            <input type = "number" step="any" name = "mass" placeholder="BMI" required="required">
+            <input type = "number" step="any" name = "pedi" placeholder="DiabetesPedigreeFunction" required="required">
+            <input type = "number" name = "age" placeholder="Age" required="required">
+            <button>submit</button>
+
+            <h2>{{data}}</h2>
+        </form>
+    </body>
+</html>
